@@ -1,9 +1,13 @@
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Map
 
 function myMap(arr, callback) {
-
+	console.log("myMap function");
+	var out = [];
+	for (var i=0; i<arr.length;i++){
+		out[i]=callback(arr[i],i,arr);
+	}
 //  CODE INSIDE HERE   //
-
+return out;
 }
 
 /*

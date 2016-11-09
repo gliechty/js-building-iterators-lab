@@ -4,7 +4,11 @@
 function myReduce(arr, callback) {
 
 //  CODE INSIDE HERE   //
+	var prev = arr[0];
+	var total = 0;
+	for (i=1; i<arr.length; i++1) {
 
+	}
 }
 
 /*
